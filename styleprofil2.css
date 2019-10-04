@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+
+  
+header {
+    width: auto;
+    height: 300px;
+    background-color: whitesmoke;
+    
+   
+}
+
+
+nav {
+    
+        overflow: hidden;
+        background-color:  grey;
+}
+img {
+    width: auto;
+    height: 200px;
+    float: left;
+}
+nav p {
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    font-size: 14pt;
+    
+}
+.left {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .right {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
