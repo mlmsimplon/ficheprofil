@@ -1,0 +1,177 @@
+body {
+    background-image: url(https://c.wallhere.com/photos/94/b2/sony_alpha_a58_35mm_f18_prime_fast_low-835744.jpg!d);
+    background-repeat: repeat;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+ /*background-image: url(https://cdn.pixabay.com/photo/2017/01/17/03/57/desktop-1985856_960_720.jpg);*/
+
+}
+
+.row{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 500px;
+color: white;
+  font-size: 14pt;
+  background-image: linear-gradient(0,0,0,0,2);
+  font-weight: lighter;
+  text-align: center;
+}
+.header {
+  flex-direction: column;
+  justify-content: center;
+  background-color:#30020D ;
+  background-image: radial-gradient(circle at top left, #3E0910, #30020D );
+  border-radius: 15px;
+}
+
+.pic  img {
+  align-self: center;
+  justify-content: space-evenly;
+  object-fit: fill;
+  border-radius: 50px;
+  height: 300px;
+    width: 220px;
+  
+  }
+.fond {
+  align-items: flex-start;
+  
+  border-radius: 15px;
+  height: 200px;
+  width:400px;
+  font-size: 24pt;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.competences {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+  height:auto;
+  background-image: linear-gradient(0,0,0,1);
+}
+.col-1{
+  /*align-items: flex-start;*/
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height:auto;
+  
+    
+ }
+ .col-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:800px;
+  height: auto;
+}
+
+ .section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 390px;
+  border: 1px solid darkred;
+  border-radius: 15px;
+ } 
+
+.col-3 {
+  align-self: center;
+  justify-content: space-evenly;
+  border: 1px solid darkred;
+ background-image: radial-gradient(circle at bottom right, #3E0910,  darkred);
+  border-radius: 15px;
+  height: 390px;
+  width: 60%;
+
+  
+  
+}
+.graphique {
+  align-items: stretch;
+   height: 390px;
+   width: 40%;
+   background-image: url(/home/marie-laure/Téléchargements/humaines.png); 
+   object-fit: fill;
+   border-radius: 15px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height:700px;
+
+}
+
+
+.col-4 {
+align-items: flex-start;
+justify-content: center;
+height:700px;
+  width:50%;
+  border: 1px solid darkred;
+  background-color:#3E0910 ;
+  background-image: radial-gradient(circle at top right, #3E0910,  darkred);
+  border-radius: 15px;
+  
+}
+
+.item {
+  align-items: flex-start;
+  justify-content: center;
+  height:700px;
+  width: 50%;
+  border: 1px solid darkred;
+  background-color: #3E0910 ;
+ 
+    background-image: radial-gradient(circle at top left, #3E0910,  darkred);
+
+  border-radius: 15px;
+
+}
+
+
+#table1 {
+  display: flex;
+align-self: flex-start;
+  text-align: center;
+  background-color: #3E0910;
+  border-radius: 15px;
+  text-align: center;
+  margin: 15;
+}
+.nested td {
+ 
+  border: 1px solid darkred;
+  text-align: center;
+  margin: 15;
+}
+#table2 {
+ 
+  border-spacing: 10px;
+  text-align: center;
+  
+}
+h3 {
+  font-weight: lighter;
+  border : 1px solid darkred;
+  background-color:#3E0910;
+  border-radius: 15px;
+}
