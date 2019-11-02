@@ -1,6 +1,7 @@
 body {
-    background-image: url(https://c.wallhere.com/photos/94/b2/sony_alpha_a58_35mm_f18_prime_fast_low-835744.jpg!d);
-    background-repeat: repeat;
+  background-color: #751A8D;
+  background-image: radial-gradient(circle at top ,#751A8D, #450E54 );
+
 }
 
 .container{
@@ -16,9 +17,9 @@ body {
   display: flex;
   align-items: flex-start;
   width: 100%;
-  height: 500px;
+  height: 700px;
 color: white;
-  font-size: 14pt;
+  font-size: 16pt;
   background-image: linear-gradient(0,0,0,0,2);
   font-weight: lighter;
   text-align: center;
@@ -26,8 +27,9 @@ color: white;
 .header {
   flex-direction: column;
   justify-content: center;
-  background-color:#30020D ;
-  background-image: radial-gradient(circle at top left, #3E0910, #30020D );
+  background-image: url(/var/www/html/fiche/image/j.jpg);
+  background-size: 100%;
+  margin-bottom: 2cm;
   border-radius: 15px;
 }
 
@@ -41,14 +43,15 @@ color: white;
   
   }
 .fond {
-  align-items: flex-start;
-  
+  align-items: center;
   border-radius: 15px;
-  height: 200px;
-  width:400px;
-  font-size: 24pt;
+  height: auto;
+  width: auto;
+  border: 1px solid #450E54 ;
+  font-size: 18pt;
+  font-family: 'Courgette', cursive;
   color: white;
-  font-weight: bolder;
+  font-weight: lighter;
 }
 
 
@@ -56,18 +59,20 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-image: url(/var/www/html/fiche/image/watercolour-4117017_960_720.png);
+  background-size: 100%;
+
   width: 100%;
-  margin-bottom: 20px;
   height:auto;
-  background-image: linear-gradient(0,0,0,1);
+
 }
 .col-1{
   /*align-items: flex-start;*/
   display: flex;
-  margin-bottom: 20px;
   flex-direction: column;
   align-items: center;
-  width: 800px;
+  margin-bottom: 2cm;
+  width: 900px;
   height:auto;
   
     
@@ -76,7 +81,8 @@ color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:800px;
+  margin-bottom: 2cm;
+  width: 900px;
   height: auto;
 }
 
@@ -86,16 +92,19 @@ color: white;
   justify-content: space-around;
   width: 100%;
   height: 390px;
-  border: 1px solid darkred;
+
+  border: 1px solid #4A045D;
   border-radius: 15px;
  } 
 
 .col-3 {
   align-self: center;
   justify-content: space-evenly;
-  border: 1px solid darkred;
- background-image: radial-gradient(circle at bottom right, #3E0910,  darkred);
+  border: 1px solid #4A045D;
+  background-image: url(/var/www/html/fiche/image/p.jpg);
+  object-fit: contain;
   border-radius: 15px;
+
   height: 390px;
   width: 60%;
 
@@ -103,11 +112,12 @@ color: white;
   
 }
 .graphique {
-  align-items: stretch;
+  align-items: center;
    height: 390px;
    width: 40%;
    background-image: url(/home/marie-laure/Téléchargements/humaines.png); 
    object-fit: fill;
+   margin-bottom: 2cm;
    border-radius: 15px;
 }
 
@@ -115,8 +125,11 @@ color: white;
 .footer {
   display: flex;
   align-items: flex-start;
+  background-image: url(/var/www/html/fiche/image/progaming.jpg);
+ background-size: 100%;
+  margin-top: 2cm;
   width: 100%;
-  height:700px;
+  height:900px;
 
 }
 
@@ -124,11 +137,10 @@ color: white;
 .col-4 {
 align-items: flex-start;
 justify-content: center;
-height:700px;
-  width:50%;
-  border: 1px solid darkred;
-  background-color:#3E0910 ;
-  background-image: radial-gradient(circle at top right, #3E0910,  darkred);
+height:900px;
+  width: 50%;
+  border: 1x solid #4A045D;
+ 
   border-radius: 15px;
   
 }
@@ -136,13 +148,10 @@ height:700px;
 .item {
   align-items: flex-start;
   justify-content: center;
-  height:700px;
+  height:900px;
   width: 50%;
-  border: 1px solid darkred;
-  background-color: #3E0910 ;
- 
-    background-image: radial-gradient(circle at top left, #3E0910,  darkred);
-
+  border: 1px solid #3F0C4D;
+  
   border-radius: 15px;
 
 }
@@ -152,14 +161,14 @@ height:700px;
   display: flex;
 align-self: flex-start;
   text-align: center;
-  background-color: #3E0910;
+  background-color:rgb(79, 22, 95) ;
   border-radius: 15px;
   text-align: center;
-  margin: 15;
+  margin: 10;
 }
 .nested td {
  
-  border: 1px solid darkred;
+  border: 1px solid violet;
   text-align: center;
   margin: 15;
 }
@@ -171,7 +180,11 @@ align-self: flex-start;
 }
 h3 {
   font-weight: lighter;
-  border : 1px solid darkred;
-  background-color:#3E0910;
+  border : 1px solid rgb(46, 5, 46);
+  background-color: rgb(46, 4, 58) ;
   border-radius: 15px;
+}
+h2 {
+  font-family: 'Courgette', cursive;
+  font-weight: bolder;
 }
